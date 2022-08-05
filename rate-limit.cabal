@@ -1,7 +1,7 @@
+Cabal-Version: >= 1.8
 Name: rate-limit
-Version: 1.4.2
+Version: 1.4.3
 Build-Type: Simple
-Cabal-Version: >= 1.6
 License: BSD3
 License-File: LICENSE
 Author: Adam Wick <awick@uhsure.com>
@@ -20,7 +20,7 @@ Library
   Build-Depends: base       >= 4.0     && < 5.0
                , stm        >= 2.4     && < 2.6
                , time-units >= 1.0     && < 2.0
-               , time       >= 1.5.0.1 && < 1.10
+               , time       >= 1.5.0.1 && < 1.13
   Exposed-Modules: Control.RateLimit
 
 source-repository head
